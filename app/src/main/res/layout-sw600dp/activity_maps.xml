@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    class="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    tools:context="com.sisixa.dtt_application.MapsActivity">
+
+
+    <LinearLayout
+        android:id="@+id/tabletlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:gravity="center"
+        android:background="#72CBE2"
+        android:orientation="vertical"
+        android:padding="50dp"
+         >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Neem contact op met RSR Nederland"
+            android:textColor="#fff"
+            android:layout_marginBottom="13dp"
+            android:textSize="16sp"
+            />
+
+        <TextView
+
+            android:id="@+id/telefonika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/main_btn_tel"
+            android:gravity="center"
+            android:text="+31 9007788990"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+</fragment>

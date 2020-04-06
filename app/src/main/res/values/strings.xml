@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RSR</string>
+    <string name="title_activity_maps">RSR Pechhulp</string>
+    <string name="main_activity_text">RSR Revalidatieservice</string>
+    <string name="title_location_permission">GPS uitgeschakeld</string>
+    <string name="text_location_permission">Uw GPS is uitgeschakeld. Schakelhet alstublieft in om door te gaan.</string>
+    <string name="ok">AANZETTEN</string>
+</resources>
